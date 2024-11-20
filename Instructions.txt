@@ -1,0 +1,68 @@
+1. Sign in
+When the user runs the program, the login page will pop up. The user needs to enter their email address and password to access the system. If the password does not match or the email is not found, the user will receive an alert.
+
+
+2. Sign up
+If user want to create a new account, he can click the "Sign Up" button below. On the "Sign Up" page, user can enter your email address and password. The password must contain one uppercase letter, one lowercase letter, one special character, and be between 8 and 20 characters long. The repeated password should match the one previously entered.
+
+
+3. Overview Page
+For the convenience of demonstration, we have already set up a default user with initialized data. Upon signing in, users are directed to the Overview Page, which serves as the central hub of the application. This page consists of four sections: dashboard, application due warning panel, statistical panel, and calendar. Details shown below:
+
+	1) Dashboard: This is the primary area for navigation.
+	2) Application Due Warning Panel:This panel is crucial for time management. It lists applications with upcoming deadlines, prompting users to take timely action. Clicking on an application takes user directly to the corresponding application page, allowing for immediate response and action.
+	3) Statistical Panel: This section is comprised of four distinct parts. It presents a visual and numerical representation of user application data. It is dynamic and updates in real-time, ensuring users have the latest information on their application progress.
+	4) Calendar: We also set up a calendar to display significant dates in the job application process, like upcoming interviews or deadlines. This ensures that users are prepared for the important events ahead
+
+
+4. Application Page
+When user clicks the "Application" button on the dashboard, he/she will be navigated to the Application Page, which is divided into three key sections: the application management panel, the search bar, and the add new application button. Functionalities details shown below:
+
+	1）Application Management Panel: This panel lists all the applications the user has added to the system. It allows user to manage and review each application he/she is tracking.
+	2) Search Bar: User can enter a keyword related to the job positions they are interested in. The system then displays job positions that match the entered keyword.
+
+
+5.  Application Tracking Page
+When user selects an application from the management panel, he/she will be taken to the Managing Application Page, which consists of four distinct sections: the application tracker panel, note panel, LinkedIn management panel, and question management panel.
+
+	1)Application Tracker Panel: This section offers several functionalities:
+		(1) Apply Link: Clicking this will navigate the user to the detailed application page for that specific position.
+		(2) Resume and Cover Letter Upload: Users can upload their resume and cover letter from their local files to the system.
+		(3) Application Status: Users can set and update their application status, tracking the progress of their applications.
+		(4) Progress Bar: Displays how much of the application process has been completed. A feature to rate the position is planned but not yet implemented due to time constraints.
+	2) Note Panel:
+		(1) Add New Note: Users can create a new note about the position by entering a note title and contents. After clicking "Save," the note is stored and displayed in the list on the left side of the panel.
+		(2) Edit Existing Note: Users can edit any note by selecting it from the list.
+	3) LinkedIn Management Panel:
+		(1) Add LinkedIn Link: Users can add the LinkedIn link of employers or other contacts related to the position. The links that are saved are displayed in a list below, and 
+		(2) Navigation: Users can click any link to visit the corresponding LinkedIn page.
+	4) Question Management Panel:
+		(1) Add Questions: Users can add questions related to the position and save them in the list, which helps in preparing for interviews or meetings concerning the position.
+
+
+6. Company Management Page
+When user clicks the "Companies" button on the dashboard, he/she will be navigated to the Company Management Page. This page allows user to view the information of all the companies he/she has applied for. The functionalities in this page include:
+
+	1) Search Functionality: A search bar at the top enables user to search for companies by name. Results are displayed in the table below.
+	2) Company Table: The table lists companies with columns for the company name, the number of applications submitted, and the industry each company belongs to.
+	3) Future improvement: In the future, we want to improve this part by providing further details about the applications to that company or navigating to the company’s profile within the system.
+
+7. Question Management Page
+When users click the "Questions" button on the dashboard, they are navigated to the Question Management Page. This page serves as a repository of questions that users have about job applications.The functionalities in this page include:
+
+	1) Question Search: User can search for questions using the search bar at the top. Results appear in the "Search Result" field.
+	2) List of Questions: A list to the right shows all questions stored in the system.
+	3) Answers: Below the search bar is a field where answers to selected questions appear. User can likely select a question to view its answer(s).
+
+8. Setting Management Page
+This page allows a user to update their profile settings, including:
+
+	1）Avatar Upload: User can upload a new profile picture using the 'Upload' button.
+	2） Username Display: The current username can be updated.
+	3） Password Update: User can change their password by entering their current password followed by a new password. The new password requires re-entry for confirmation.
+	4）Password requirements: As before, the new password must be 8-20 characters long, including one lowercase letter, one uppercase letter, and one special character.
+
+
+9. Log out
+Clicking the "LogOut" button will help user exit the account.
+	
