@@ -21,7 +21,7 @@ public class Initializer {
 		// Initialize a test user
 		RegularUser testUser = new RegularUser("user@gmail.com", "1111");
 //		Profile profile1 = testUser.getAssociatedProfile();
-//		profile1.setUserName("HI");
+//		profile1.setUserName("HI2");
 		
 		administrator.getUserDirectory().addUser(testUser);
 		
